@@ -1,0 +1,8 @@
+aws_region   = "eu-west-1"
+project_name = "governance"
+
+# La contraseña del usuario IAM la genera Terraform al apply:
+# terraform output -raw platform_management_user_initial_password
+
+# Sin cuentas hijas (solo OUs + SCP):
+# member_accounts = {}
